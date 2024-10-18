@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu te amo!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Para: O amor da minha vida.</strong>
+                        <p>
+                            Oi, amor.
+
+                            Esta será apenas uma breve carta, já que você sempre reclama que nunca escrevo nenhuma.
+                            Quero que saiba que te amo muito, com um amor que nem consigo descrever em palavras. Este já
+                            é o seu segundo aniversário juntos como namorados, mas o terceiro que celebramos já,
+                            conectados se assim posso dizer, e espero que possamos comemorar muitos outros ao longo das
+                            nossas vidas.
+
+                            Fico muito feliz por tudo o que já vivemos e pelo que ainda vamos viver. É uma alegria
+                            imensa poder comemorar mais um ano dessa data tão especial ao seu lado. Eu te amo!
+                        </p>
+                        <strong> ----------De: Admirador Secreto</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
